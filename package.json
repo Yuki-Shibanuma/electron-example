@@ -1,0 +1,27 @@
+{
+  "name": "electron-example",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "d": "electron ./",
+    "b": "electron-builder --mac --x64 --dir"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1"
+  },
+  "main": "main.js",
+  "devDependencies": {
+    "electron": "^16.0.1",
+    "electron-builder": "^22.14.5"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "electron"
+}
